@@ -18,13 +18,3 @@ def factorial(number):
 print(factorial(0))
 print(factorial(5))  
 
-def swap(numbers):
-    temp = numbers[0]
-    numbers[0] = numbers[1]
-    numbers[1] = temp
-
-numbers = [10, 20]
-
-swap(numbers)
-
-print(numbers)
