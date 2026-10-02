@@ -44,6 +44,17 @@ def addNumbers(num1, num2):
 number1 = int(input("Enter first number: "))
 number2 = int(input("Enter second number: "))
 
+def swap(numbers):
+    temp = numbers[0]
+    numbers[0] = numbers[1]
+    numbers[1] = temp
+
+numbers = [10, 20]
+
+swap(numbers)
+
+print(numbers)
+
 answer = addNumbers(number1, number2)
 
 print("Answer:", answer)
